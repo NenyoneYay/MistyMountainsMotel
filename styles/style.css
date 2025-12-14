@@ -321,3 +321,151 @@ footer {
 #info-button a:hover {
     color:#A98467;
 }
+
+
+/*-------------------------------------------------------*/
+
+#location-picturebox {
+    max-width: 1800px;
+    padding: 35px;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 50px;
+    margin: 0 auto;
+    background-color: #ADC178;
+}
+
+#map-picture {
+    width: 90%;
+    grid-column: 2;
+    margin: 0 auto;
+}
+
+#inn-picture {
+    width: 90%;
+    margin: 0 auto;
+    grid-column: 3;
+}
+
+.location-grid {
+    max-width: 1800px;
+    padding: 35px;
+    display: grid;
+    grid-template-columns: 50px 250px 1fr 50px 250px 1fr;
+    grid-template-rows: 50px 250px 1fr 50px 250px 1fr;
+    background-color: #7e963d;
+    margin: 0 auto;
+}
+
+
+
+.mountain-picture {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #A98467;
+}
+#location-mountain-img {
+    width: 90%;
+    height: 90%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.town-picture {
+    grid-column: 5;
+    grid-row: 2;
+    background-color: #A98467;
+}
+#location-town-img {
+    width: 90%;
+    height: 90%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.skiing-picture {
+    grid-column: 2;
+    grid-row: 5;
+    background-color: #A98467;
+}
+#location-skiing-img {
+    width: 90%;
+    height: 90%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.hiking-picture {
+    grid-column: 5;
+    grid-row: 5;
+    background-color: #A98467;
+}
+#location-hiking-img {
+    width: 90%;
+    height: 90%;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.location-mountain-card {
+    grid-column: 3;
+    grid-row: 2;
+    padding-left: 10px;
+    h1 {
+        font-size: 3em;
+        font-family: "Macondo Swash Caps", Georgia, 'Times New Roman', Times, serif;
+        color: #F0EAD2;
+    }
+    h4 {
+        font-size: 2em;
+        font-family: "Story Script", "Sansation", Georgia, 'Times New Roman', Times, serif;
+        color:#F0EAD2;
+    }
+}
+
+.location-towninfo-card {
+    padding-left: 10px;
+    grid-column: 6;
+    grid-row: 2;
+    h1 {
+        font-size: 3em;
+        font-family: "Macondo Swash Caps", Georgia, 'Times New Roman', Times, serif;
+        color: #F0EAD2;
+    }
+    h4 {
+        font-size: 1.5em;
+        font-family: "Story Script", "Sansation", Georgia, 'Times New Roman', Times, serif;
+        color:#F0EAD2;
+    }
+}
+
+.location-skiing-card {
+    padding-left: 10px;
+    grid-column: 3;
+    grid-row: 5;
+    h1 {
+        font-size: 3em;
+        font-family: "Macondo Swash Caps", Georgia, 'Times New Roman', Times, serif;
+        color: #F0EAD2;
+    }
+    h4 {
+        font-size: 2em;
+        font-family: "Story Script", "Sansation", Georgia, 'Times New Roman', Times, serif;
+        color:#F0EAD2;
+    }
+}
+
+.location-hiking-card {
+    padding-left: 10px;
+    grid-column: 6;
+    grid-row: 5;
+    h1 {
+        font-size: 3em;
+        font-family: "Macondo Swash Caps", Georgia, 'Times New Roman', Times, serif;
+        color: #F0EAD2;
+    }
+    h4 {
+        font-size: 2em;
+        font-family: "Story Script", "Sansation", Georgia, 'Times New Roman', Times, serif;
+        color:#F0EAD2;
+    }
+}
